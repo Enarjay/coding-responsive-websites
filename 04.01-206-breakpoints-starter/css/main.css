@@ -1,0 +1,17 @@
+body{
+	background: #B2DBBF;
+}
+
+/* ----------- Tablets larger than 768px wide ----------- */
+@media (min-width: 768px) {
+	body {
+    background: #70C1B3;
+  }
+}
+
+/* ----------- Monitors larger than 940px wide ----------- */
+@media (min-width: 1200px) {
+	body {
+    background: #247BA0;
+  }
+}
