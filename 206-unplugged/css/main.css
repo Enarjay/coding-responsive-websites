@@ -97,18 +97,103 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+ /* ---------- Base Header - Footer Styles ---------- */
+
+header, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/* header styles */
+
+header .content-wrapper {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-flow: row wrap;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ---------- Mobile Styles - Homepage ---------- */
+
+/* main styles */
+
+.hero-area {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+/* aside styles */
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/* Features Styles */
+
+.features {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.features .content-wrapper {
+
+}
+
+.features .features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/* Reviews Styles */
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+/* Footer Styles */
 
 
 
+/* ---------- Tablet Styles - Homepage ---------- */
 
 
 
-
-
-
-
-
-
+/* ---------- Desktop Styles - Homepage ---------- */
 
 
 
